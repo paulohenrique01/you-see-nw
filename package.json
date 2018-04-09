@@ -1,0 +1,15 @@
+{
+  "name": "you-see-nw",
+  "version": "0.0.1",
+  "main": "src/views/index.html",
+  "devDependencies": {
+    "nwjs-builder-phoenix": "^1.14.6"
+  },
+  "build": {
+    "nwVersion": "0.29.4"
+  },
+  "scripts": {
+    "dist": "build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ .",
+    "start": "run --x86 --mirror https://dl.nwjs.io/ ."
+  }
+}

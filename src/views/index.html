@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hello World!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/src/styles/default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section id="app" ng-init="indexCtrl.loadInit()" class="content-header">
+    <div class="container">
+      <div class="row">
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h4 class="text-center"> Mídias cadastradas</h4>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+
+              <div class="col-md-3">
+                <div class="form-group ">
+                  <label for="categoria">Categoria:</label>
+                  <select id="categoria" class="form-control" onchange="onChangeCategoria()">
+                      <option value="All">Todas as categorias
+                      <option value="Business">Business
+                      <option value="Entertainment">Entertainment
+                      <option value="News">News
+                      <option value="Sports">Sports                 
+                </select>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="form-group ">
+                  <label for="tipo">Tipo:</label>
+                  <select id="tipo" class="form-control" onchange="onChangeTipo()">
+                      <option value="All">Todas os tipos
+                      <option value="image">Imagem
+                      <option value="rss">RSS  
+                      <option value="video">Vídeo                              
+                </select>
+                </div>
+              </div>              
+            </div>
+            <div id="midias" class="row"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="/src/app/main.js" type="text/javascript"></script>
+</body>
+
+</html>

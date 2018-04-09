@@ -1,0 +1,99 @@
+footer{
+    background-color: #F7F7F7;
+}
+
+.footer-fundo{
+    color: #fff;
+    background-color: #008CBC;
+    width: 100% !important;
+    height:  60px ;
+   
+}
+
+
+/*
+ * Menu Item
+ * -------------------
+ */
+.menu-item-info-box {
+  color: #555;
+  display: block;
+  min-height: 120px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.menu-item-info-box small {
+  font-size: 14px;
+}
+.menu-item-info-box .progress {
+  background: rgba(0, 0, 0, 0.2);
+  margin: 5px -10px 5px -10px;
+  height: 2px;
+}
+.menu-item-info-box .progress,
+.menu-item-info-box .progress .progress-bar {
+  border-radius: 0;
+}
+.menu-item-info .progress .progress-bar {
+  background: #fff;
+}
+.menu-item-info-box-icon {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  display: block;
+  float: left;
+  /*height: 120px;*/
+  width: 120px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+.menu-item-info-box-icon > img {
+  max-width: 100%;
+  height: 110px;
+  /*border-right: 1px solid rgba(0, 0, 0, 0.1);*/
+}
+.menu-item-info-box-price {
+  /*font-weight: bold;*/
+  margin-right: 20px;
+  font-size: 16px;
+  color: green;
+}
+
+.menu-item-info-box-content {
+  padding: 5px 10px;
+  margin-left: 120px;
+}
+
+.menu-item-info-box-content a {
+  cursor: pointer;
+}
+
+.menu-item-info-box-detail {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.menu-item-info-box-text {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  width: 80%;
+}
+.menu-item-info-box-text {
+}
+
+.menu-item-info-box-more {
+  display: block;
+}
